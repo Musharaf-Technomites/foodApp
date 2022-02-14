@@ -1,6 +1,8 @@
 import React from "react"
-import { View, Text, FlatList, SafeAreaView } from "react-native"
+import { View, Text, FlatList, SafeAreaView,TouchableOpacity } from "react-native"
 import { allMeals } from "../../Data/DummyData"
+import Colors from "../../Constants/Colors"
+
 const AllMealsScreen = props => {
     const catId = props.route.params.id
     const allFilterMeal = allMeals.filter((item) => item.catId === catId)

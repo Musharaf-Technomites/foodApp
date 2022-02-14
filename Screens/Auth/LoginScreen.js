@@ -17,14 +17,14 @@ const LoginScreen = (props) => {
 
     return (
         <SafeAreaView style={{ height: "100%", width: "100%", backgroundColor: Colors.bgWhite}}>
-           <ScrollView>
-           <View style={{ height:120, width: "100%", justifyContent: "center", alignItems: "center" }}>
+           <ScrollView >
+           <View style={{ height:200, width: "100%", justifyContent: "center", alignItems: "center" }}>
                 <Image
                     source={require("../../assets/Images/logo.jpg")}
                     style={{ height: 80, width: 100 }}
                 />
             </View>
-            <View style={{ height: 360, width: "100%", justifyContent: "center", alignItems: "center", backgroundColor: Colors.primary, borderTopLeftRadius: 20, borderTopRightRadius: 20 }}>
+            <View style={{ height: 360, width: "100%", justifyContent: "center", alignItems: "center", backgroundColor: Colors.primary, borderRadius:20}}>
                 <View style={{ height: "100%", width: "90%", justifyContent: "center", alignItems: "center" }}>
                     <MyInput
                         OnChangeText={(text)=>{

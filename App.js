@@ -4,11 +4,7 @@ import { StyleSheet, Text, View } from 'react-native';
 import MainNavigator from './Navigator/Navigator';
 export default function App() {
   return (
-    <View>
-      <Text>
-        adsfasdf
-      </Text>
-    </View>
+    <MainNavigator/>
   );
 }
 

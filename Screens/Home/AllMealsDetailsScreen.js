@@ -7,14 +7,14 @@ const AllMealsDetailScreen = props => {
 
     const renderList = (itemData) => {
         return (
-            <View style={{ height: 50, width: 50, marginHorizontal: 10, justifyContent: "center", alignItems: "center" }}>
+            <View style={{ height: 50, width: 100, marginHorizontal: 10, justifyContent: "center", alignItems: "center" }}>
                 <Text>{itemData.item.ingName}</Text>
             </View>
         )
     }
 
     return (
-        <SafeAreaView style={{ height: "100%", width: "100%", justifyContent: "center", alignItems: "center" }}>
+        <SafeAreaView style={{marginTop:50}} style={{ height: "100%", width: "100%", justifyContent: "center", alignItems: "center" }}>
             <ScrollView>
                 <View style={{ marginHorizontal: 10 }}>
                     <Image
@@ -48,10 +48,11 @@ const AllMealsDetailScreen = props => {
                         />
                     </View>
 
+
                     {
                         data.ing.map((item) => {
                             return (
-                                <View style={{ height: 50, width: 50, marginHorizontal: 10, justifyContent: "center", alignItems: "center" }}>
+                                <View style={{ height: 50, width: 100, marginHorizontal: 10, justifyContent: "center", alignItems: "center" }}>
                                     <Text>{item.ingName}</Text>
                                 </View>
                             )
