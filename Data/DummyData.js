@@ -3,6 +3,7 @@ export const allCategories = [
         id: 1,
         name: "Pakistani",
         color: "#CF3C1D",
+        
     },
     {
         id: 2,
@@ -29,76 +30,112 @@ export const allMeals = [
         title: "Biryani",
         catId: 1,
         imageUrl: "https://upload.wikimedia.org/wikipedia/commons/5/5a/%22Hyderabadi_Dum_Biryani%22.jpg",
-        description:"Copyright ownership gives the owner the exclusive right to use the work, with some exceptions. When a person creates an original work, fixed in a tangible medium, he or she automatically owns copyright to the work.Copyright ownership gives the owner the exclusive right to use the work, with some exceptions. When a person creates an original work, fixed in a tangible medium, he or she automatically owns copyright to the work.Copyright ownership gives the owner the exclusive right to use the work, with some exceptions. When a person creates an original work, fixed in a tangible medium, he or she automatically owns copyright to the work.",
-        ing:[
+        description: "Copyright ownership gives the owner the exclusive right to use the work, with some exceptions. When a person creates an original work, fixed in a tangible medium, he or she automatically owns copyright to the work.Copyright ownership gives the owner the exclusive right to use the work, with some exceptions. When a person creates an original work, fixed in a tangible medium, he or she automatically owns copyright to the work.Copyright ownership gives the owner the exclusive right to use the work, with some exceptions. When a person creates an original work, fixed in a tangible medium, he or she automatically owns copyright to the work.",
+        ing: [
             {
-                id:1,
-                ingName:"Chicken",
+                id: 1,
+                ingName: "Chicken",
             },
             {
-                id:2,
-                ingName:"Spices",
+                id: 2,
+                ingName: "Spices",
             },
             {
-                id:3,
-                ingName:"Rice",
+                id: 3,
+                ingName: "Rice",
             },
             {
-                id:4,
-                ingName:"Food Color",
+                id: 4,
+                ingName: "Food Color",
             },
             {
-                id:5,
-                ingName:"Raita",
+                id: 5,
+                ingName: "Raita",
             },
             {
-                id:6,
-                ingName:"Black Paper",
+                id: 6,
+                ingName: "Black Paper",
             },
 
         ],
-        time:"20 - 30 min",
-        
+        time: "20 - 30 min",
+
 
     },
-   {
+    {
         id: 2,
-        title: "karachi",
+        title: "Karahi",
         catId: 1,
-        mealname: "yahoooo",
         imageUrl: "https://upload.wikimedia.org/wikipedia/commons/5/5a/%22Hyderabadi_Dum_Biryani%22.jpg",
-        description:"Copyright ownership gives the owner the exclusive e work.Copyright ownership gives the owner the exclusive right to use the work, with some exceptions. When a person creates an original work, fixed in a tangible medium, he or she automatically owns copyright to the work.Copyright ownership gives the owner the exclusive right to use the work, with some exceptions. When a person creates an original work, fixed in a tangible medium, he or she automatically owns copyright to the work.",
-        ing:[
+        description: "Copyright ownership gives the owner the exclusive e work.Copyright ownership gives the owner the exclusive right to use the work, with some exceptions. When a person creates an original work, fixed in a tangible medium, he or she automatically owns copyright to the work.Copyright ownership gives the owner the exclusive right to use the work, with some exceptions. When a person creates an original work, fixed in a tangible medium, he or she automatically owns copyright to the work.",
+        ing: [
             {
-                id:1,
-                ingName:"Chicken",
+                id: 1,
+                ingName: "Chicken",
             },
             {
-                id:2,
-                ingName:"Spices",
+                id: 2,
+                ingName: "Spices",
             },
             {
-                id:3,
-                ingName:"Rice",
+                id: 3,
+                ingName: "Rice",
             },
             {
-                id:4,
-                ingName:"Food Color",
+                id: 4,
+                ingName: "Food Color",
             },
             {
-                id:5,
-                ingName:"Raita",
+                id: 5,
+                ingName: "Raita",
             },
             {
-                id:6,
-                ingName:"Black Paper",
+                id: 6,
+                ingName: "Black Paper",
             },
 
         ],
-        time:"60 - 90 min",
-        
+        time: "60 - 90 min",
+
+    },
+
+    {
+        id: 3,
+        title: "Noodles",
+        catId: 2,
+        mealname: "",
+        imageUrl: "https://www.allrecipes.com/thmb/_7xa5syT_3lDTZ6E8_jOb_3NFyA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/270770-garlic-noodles-ddmfs-2x1-0186-82d4c1088e95495f827482c249dcfe1b.jpg",
+        description: "Copyright ownership gives the owner the exclusive e work.Copyright ownership gives the owner the exclusive right to use the work, with some exceptions. When a person creates an original work, fixed in a tangible medium, he or she automatically owns copyright to the work.Copyright ownership gives the owner the exclusive right to use the work, with some exceptions. When a person creates an original work, fixed in a tangible medium, he or she automatically owns copyright to the work.",
+        ing: [
+            {
+                id: 1,
+                ingName: "Chicken",
+            },
+            {
+                id: 2,
+                ingName: "Spices",
+            },
+            {
+                id: 3,
+                ingName: "Red Paper",
+            },
+            {
+                id: 4,
+                ingName: "Food Color",
+            },
+
+            {
+                id: 6,
+                ingName: "Black Paper",
+            },
+
+        ],
+        time: "60 - 90 min",
+
     },
 
 
 ]
+
+
 
